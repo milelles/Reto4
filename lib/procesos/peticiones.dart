@@ -5,8 +5,8 @@ class peticionesDB {
     await database.execute(""" CREATE TABLE posiciones (
       id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
       coordenadas TEXT,
-      fecha TEXT)
-      """);
+      fecha TEXT
+    ) """);
   }
 
   static Future<sql.Database> db() async {
@@ -31,9 +31,9 @@ class peticionesDB {
     base.delete("posiciones");
   }
 
-  static Future<void> GuardarPosicion(coor, fecha) async {
+  static Future<void> GuardarPosicion(coor, fec) async {
     final base = await peticionesDB.db();
-    final datos = {"coordenadas": coor, "fecha": fecha};
+    final datos = {"coordenadas": coor, "fecha": fec};
     await base.insert("posiciones", datos,
         conflictAlgorithm: sql.ConflictAlgorithm.replace);
   }
