@@ -1,16 +1,17 @@
-# reto4
+# Reto 4 - NRC2288 - Grupo 2
+Se completo la app de un carrito de compras, se relaizaron algunos cambios a las vistas. 
 
+Entrega presentada por:
+
+Mileimis Elles Barrios
+
+Carlos Rios Mendoza
+
+Jeremias Pajaro Peña
 A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+https://user-images.githubusercontent.com/48127006/206060427-8d8a7eb6-c0e4-4fa2-bb3e-f75bf2f5a2da.mp4
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
