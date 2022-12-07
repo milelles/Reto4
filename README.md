@@ -8,10 +8,8 @@ Mileimis Elles Barrios
 Carlos Rios Mendoza
 
 Jeremias Pajaro Peña
-A new Flutter project.
 
-
-
+# Demo App
 https://user-images.githubusercontent.com/48127006/206060427-8d8a7eb6-c0e4-4fa2-bb3e-f75bf2f5a2da.mp4
 
 
