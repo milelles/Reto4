@@ -1,5 +1,5 @@
 # Reto 4 - NRC2288 - Grupo 2
-Se completo la app de un carrito de compras, se relaizaron algunos cambios a las vistas. 
+Se completo la app de un carrito de compras, se realizaron algunos cambios a las vistas. 
 
 Entrega presentada por:
 
