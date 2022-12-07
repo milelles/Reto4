@@ -14,6 +14,12 @@ class listar extends StatefulWidget {
 class _listarState extends State<listar> {
   controladorGeneral Control = Get.find();
   @override
+  void initState() {
+    super.initState();
+    Control.CargarTodaBD();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Obx(() => Container(
           child: Control.ListaPosiciones?.isEmpty == false
@@ -45,13 +51,11 @@ class _listarState extends State<listar> {
                                           child: Text("NO"),
                                           onPressed: () {
                                             Navigator.pop(context);
-                                          }
-                                      )
+                                          })
                                     ],
                                     desc:
                                         "Esta seguro que desea eliminar esta posición?")
                                 .show();
-                            
                           },
                           icon: Icon(Icons.delete_outlined)),
                       title:
